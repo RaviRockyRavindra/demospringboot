@@ -20,5 +20,11 @@ public class sample {
 		return "hello ravindra welcome to team rc creation";
 	}
 	
+	@RequestMapping(value="/")
+	public String defaultmessage()
+	{
+		return "welcome to spring boot page";
+	}
+	
 
 }
